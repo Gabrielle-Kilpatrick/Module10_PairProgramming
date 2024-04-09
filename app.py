@@ -1,16 +1,16 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return ("hello world, index")
+    return render_template("index.html")
 
-@app.route('/mike')
-def mike():
-    n1 = 10
-    n2 = 20
-    return ("hello world, Mike")
+@app.route('/')
+def about():
+    return render_template("about.html")
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)
