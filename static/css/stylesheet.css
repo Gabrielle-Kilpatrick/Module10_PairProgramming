@@ -17,3 +17,9 @@ button {
   body {
     font-family: 'Arial', sans-serif;
   }
+
+  form {
+    background-color: #d3d3d3;
+    padding: 20px;
+    border-radius: 5px; 
+  }
