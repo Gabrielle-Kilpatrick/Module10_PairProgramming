@@ -1,2 +1,6 @@
-# Module10_PairProgramming
-Module 10: Pair Programming and Flask assignment for Digital Product Management
+ # learning_flask
+Learning to use Flask and pair programming BAIS3300
+
+# Names
+
+Drew Bradley & Gabby Kilpatrick
